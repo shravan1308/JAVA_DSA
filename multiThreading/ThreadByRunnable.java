@@ -1,4 +1,4 @@
-package Dedication_POTD_24;
+package multiThreading;
 
 class Hi implements Runnable {
     public void run(){

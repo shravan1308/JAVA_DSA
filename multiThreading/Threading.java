@@ -1,4 +1,4 @@
-package Dedication_POTD_24; 
+package multiThreading;
 class Hi extends Thread {
     public void run(){
         for(int i=0; i<5;i++){

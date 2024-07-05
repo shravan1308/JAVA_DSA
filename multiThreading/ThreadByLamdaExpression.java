@@ -1,4 +1,4 @@
-package Dedication_POTD_24;
+package multiThreading;
 
 public class ThreadByLamdaExpression {
     public static void main(String[] args) {
