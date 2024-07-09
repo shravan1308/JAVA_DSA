@@ -12,6 +12,7 @@ public class Sets {
         student_Name.add("Himani");
         student_Name.add("Shravan");
         student_Name.add("Anushka Sharma");
+        
         System.out.println(student_Name);
         // it will prt "false" if we are adding dupilcate else "True"
         System.out.println(student_Name.add("virat kohli"));
@@ -30,6 +31,22 @@ public class Sets {
         student_Name.add("Kohli");
         student_Name.add("Shravan");
         System.out.println(student_Name);
+        // Union --> x.addAll(y),Intersection --> x and y. x.retainAll(y),Subset --> x c y . Y.containsAll(y).
+        Set<Integer> I1 = new HashSet<>();
+        I1.add(3);
+        I1.add(4);
+        Set<Integer> I2 = new HashSet<>();
+        I2.add(1);
+        I2.add(2);
+        I2.add(23);
+        I1.addAll(I2);
+        System.out.println(I1);
+        // [1,2,3,4,23] = I1
+        I1.retainAll(I2);
+        System.out.println(I2);
+        // [1,2,3] subset of [1,2,3,4,5]
+        System.out.println(I1);
+        System.out.println(I1.containsAll(I2));
     }
     
 }
