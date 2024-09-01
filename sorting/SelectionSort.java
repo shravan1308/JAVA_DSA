@@ -1,6 +1,6 @@
 package sorting;
 // here i don't import BubbleSort class bcz it belongs to same package.
-
+// time complexity of bubble and selection is n(n+1)/2 => n*n(n^2);
 public class SelectionSort {
     public static void main(String[] args) {
         // here i tried what i learned in OOP's [Access Modifier's];
