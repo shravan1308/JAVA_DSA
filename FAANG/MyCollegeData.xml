@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="fileHandling.serializ.College">
+  <void property="students">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="fileHandling.serializ.Student">
+      <void property="name">
+       <string>Shravan</string>
+      </void>
+      <void property="rollNo">
+       <int>24</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="fileHandling.serializ.Student">
+      <void property="name">
+       <string>Shravan</string>
+      </void>
+      <void property="rollNo">
+       <int>24</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
